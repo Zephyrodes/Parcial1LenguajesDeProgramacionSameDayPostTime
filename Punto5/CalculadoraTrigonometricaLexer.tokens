@@ -1,0 +1,12 @@
+SIN=1
+COS=2
+TAN=3
+LPAREN=4
+RPAREN=5
+NUMBER=6
+WS=7
+'Sin'=1
+'Cos'=2
+'Tan'=3
+'('=4
+')'=5
