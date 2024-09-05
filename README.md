@@ -27,7 +27,7 @@ Este proyecto contiene un script AWK para analizar y clasificar tokens de acuerd
     [0-9]+ (ENTERO)
     ([0-9]+)”.”([0-9]+) (REAL)
 
-# Descripción:
+### Descripción:
 
 El script AWK está diseñado para leer un archivo de entrada y clasificar cada línea de acuerdo con el AFD proporcionado. Los tokens reconocidos y sus clasificaciones son:
 
