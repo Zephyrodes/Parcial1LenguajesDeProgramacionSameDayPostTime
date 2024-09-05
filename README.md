@@ -9,3 +9,5 @@ Repositorio para el primer parcial de Lenguajes de Programación
 - **`Punto3/`**:Contiene el programa en C para contar repeticiones de una palabra clave.
 - **`Punto4/`**: Contiene dos programas, uno con lenguaje de programación compilado (C), y el otro con lenguaje de programación interpretado (Python).
 - **`Punto5/`**: Contiene el programa de ANTLR que calcula funciones trigonometricas.
+
+Descargar
