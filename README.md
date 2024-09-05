@@ -22,10 +22,10 @@ cd  /ruta/a/la/carpeta/PuntoX
 
 Este proyecto contiene un script AWK para analizar y clasificar tokens de acuerdo con un Autómata Finito Determinista (AFD) definido. El AFD acepta cuatro tipos de tokens basados en las siguientes expresiones regulares:
 
-    + (SUMA)
-    ++ (INCR)
-    [0-9]+ (ENTERO)
-    ([0-9]+)”.”([0-9]+) (REAL)
+    - + (SUMA)
+    - ++ (INCR)
+    - [0-9]+ (ENTERO)
+    - ([0-9]+)”.”([0-9]+) (REAL)
 
 ### Descripción:
 
