@@ -18,6 +18,24 @@ cd  /ruta/a/la/carpeta/PuntoX
 
 ```
 
-###Punto 1
+## Punto 1 - AFD ANALIZADOR DE TOKENS
+
+Este proyecto contiene un script AWK para analizar y clasificar tokens de acuerdo con un Autómata Finito Determinista (AFD) definido. El AFD acepta cuatro tipos de tokens basados en las siguientes expresiones regulares:
+
+    + (SUMA)
+    ++ (INCR)
+    [0-9]+ (ENTERO)
+    ([0-9]+)”.”([0-9]+) (REAL)
+
+# Descripción:
+
+El script AWK está diseñado para leer un archivo de entrada y clasificar cada línea de acuerdo con el AFD proporcionado. Los tokens reconocidos y sus clasificaciones son:
+
+    + se clasifica como SUMA
+    ++ se clasifica como INCR
+    [0-9]+ se clasifica como ENTERO
+    ([0-9]+)”.”([0-9]+) se clasifica como REAL
+
+Cualquier entrada que no coincida con estos patrones se clasificará como UNKNOWN.
 
 
