@@ -244,6 +244,7 @@ python3 interpretado.py
 #### Resultados esperados:
 
 **Código en C:** Debería mostrar un tiempo de ejecución significativamente menor en comparación con el código en Python debido a la naturaleza compilada de C.
+
 **Código en Python:** Debería mostrar un tiempo de ejecución mayor, ya que Python es un lenguaje interpretado y, por lo tanto, más lento en la ejecución de operaciones repetitivas intensivas.
 
 ## Punto 5 - CALCULADORA DE FUNCIONES TRIGONOMETRICAS CON ANTLR
