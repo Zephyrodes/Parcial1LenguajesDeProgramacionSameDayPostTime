@@ -10,4 +10,12 @@ Repositorio para el primer parcial de Lenguajes de Programación
 - **`Punto4/`**: Contiene dos programas, uno con lenguaje de programación compilado (C), y el otro con lenguaje de programación interpretado (Python).
 - **`Punto5/`**: Contiene el programa de ANTLR que calcula funciones trigonometricas.
 
-Descargar
+Descargar el archivo comprimido que contiene las 5 carpetas con su respectivo punto, y para cada punto, cambia el directorio con el siguiente comando:
+
+```bash
+
+cd  /ruta/a/la/carpeta/PuntoX
+
+```
+
+
