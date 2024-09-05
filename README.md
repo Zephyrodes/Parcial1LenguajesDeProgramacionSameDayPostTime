@@ -22,20 +22,54 @@ cd  /ruta/a/la/carpeta/PuntoX
 
 Este proyecto contiene un script AWK para analizar y clasificar tokens de acuerdo con un Autómata Finito Determinista (AFD) definido. El AFD acepta cuatro tipos de tokens basados en las siguientes expresiones regulares:
 
-    + (SUMA)
-    ++ (INCR)
-    [0-9]+ (ENTERO)
-    ([0-9]+)”.”([0-9]+) (REAL)
+`+` (SUMA)
+
+`++` (INCR)
+
+`[0-9]+` (ENTERO)
+
+`([0-9]+)”.”([0-9]+)` (REAL)
 
 ### Descripción:
 
-El script AWK está diseñado para leer un archivo de entrada y clasificar cada línea de acuerdo con el AFD proporcionado. Los tokens reconocidos y sus clasificaciones son:
+El script AWK, `token.awk` está diseñado para leer un archivo de entrada y clasificar cada línea de acuerdo con el AFD proporcionado. Los tokens reconocidos y sus clasificaciones son:
 
-    + se clasifica como SUMA
-    ++ se clasifica como INCR
-    [0-9]+ se clasifica como ENTERO
-    ([0-9]+)”.”([0-9]+) se clasifica como REAL
+`+` se clasifica como `SUMA`
 
-Cualquier entrada que no coincida con estos patrones se clasificará como UNKNOWN.
+`++` se clasifica como `INCR`
+
+`[0-9]+` se clasifica como `ENTERO`
+
+`([0-9]+)”.”([0-9]+)` se clasifica como `REAL`
+
+Cualquier entrada que no coincida con estos patrones se clasificará como `UNKNOWN`.
+
+### Requisitos:
+
++ AWK (version 4.x o superior recomendada)
+
++ Un archivo de texto con las cadenas que deseas analizar, en este caso `token.txt`
+
+### Ejecución:
+
+1. Una vez en el directorio `Punto1\`, coloca el siguiente comando
+
+```bash
+
+awk -f token.awk token.txt
+
+```
+
+Esto procesará cada línea del archivo `token.txt` y mostrará el token correspondiente según el AFD definido.
+
+## Punto 2 - PROYECTO LEX PARA EXPRESIONES LAMBDA DE PYTHON
+
+Este proyecto contiene un archivo de definición de LEX que reconoce expresiones lambda de Python y verifica si el contenido de un archivo de texto cumple con una estructura básica de una expresión lambda.
+
+### Descripción:
+
+El programa en LEX está diseñado para identificar expresiones lambda y llamadas a funciones en un archivo de texto.
+
+
 
 
